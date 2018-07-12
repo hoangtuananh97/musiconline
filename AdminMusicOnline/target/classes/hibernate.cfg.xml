@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+                                         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+ <session-factory name="">
+  <property name="hibernate.bytecode.use_reflection_optimizer">false</property>
+  <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+  <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/musiconline</property>
+  <property name="hibernate.connection.username">root</property>
+  <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+  <property name="hibernate.hibernate.current_session_context_class">thread</property>
+  <property name="hibernate.search.autoregister_listeners">false</property>
+  <property name="hibernate.show_sql">true</property>
+  <property name="hibernate.validator.apply_to_ddl">false</property>
+  <property name="hibernate.current_session_context_class">thread</property>
+  <mapping class="com.java.musiconline.entities.Areas"/>
+  <mapping class="com.java.musiconline.entities.Detailbill"/>
+  <mapping class="com.java.musiconline.entities.Artists"/>
+  <mapping class="com.java.musiconline.entities.Bill"/>
+  <mapping class="com.java.musiconline.entities.Banks"/>
+  <mapping class="com.java.musiconline.entities.Comment"/>
+  <mapping class="com.java.musiconline.entities.Songs"/>
+  <mapping class="com.java.musiconline.entities.Admin"/>
+  <mapping class="com.java.musiconline.entities.Role"/>
+  <mapping class="com.java.musiconline.entities.ReplyComment"/>
+  <mapping class="com.java.musiconline.entities.Feels"/>
+  <mapping class="com.java.musiconline.entities.SongOfUser"/>
+  <mapping class="com.java.musiconline.entities.UserRole"/>
+  <mapping class="com.java.musiconline.entities.Types"/>
+  <mapping class="com.java.musiconline.entities.User"/>
+ </session-factory>
+</hibernate-configuration>

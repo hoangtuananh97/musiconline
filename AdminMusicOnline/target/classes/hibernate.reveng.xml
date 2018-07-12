@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+  <table-filter match-catalog="musiconline" match-name="admin"/>
+  <table-filter match-catalog="musiconline" match-name="areas"/>
+  <table-filter match-catalog="musiconline" match-name="artists"/>
+  <table-filter match-catalog="musiconline" match-name="banks"/>
+  <table-filter match-catalog="musiconline" match-name="bill"/>
+  <table-filter match-catalog="musiconline" match-name="comment"/>
+  <table-filter match-catalog="musiconline" match-name="detailbill"/>
+  <table-filter match-catalog="musiconline" match-name="feels"/>
+  <table-filter match-catalog="musiconline" match-name="reply_comment"/>
+  <table-filter match-catalog="musiconline" match-name="role"/>
+  <table-filter match-catalog="musiconline" match-name="song_of_user"/>
+  <table-filter match-catalog="musiconline" match-name="songs"/>
+  <table-filter match-catalog="musiconline" match-name="types"/>
+  <table-filter match-catalog="musiconline" match-name="user"/>
+  <table-filter match-catalog="musiconline" match-name="user_role"/>
+</hibernate-reverse-engineering>

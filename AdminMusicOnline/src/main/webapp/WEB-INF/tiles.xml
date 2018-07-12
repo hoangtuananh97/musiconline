@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+<definition name="index" template="/WEB-INF/views/layoutindex/layout.jsp">
+		<put-attribute name="title" value="index" />
+		<put-attribute name="header" value="/WEB-INF/views/layoutindex/header.jsp" />
+		<put-attribute name="homebanner" value="/WEB-INF/views/layoutindex/homebanner.jsp" />
+		<put-attribute name="about" value="/WEB-INF/views/layoutindex/about.jsp" />
+		<put-attribute name="playlist" value="/WEB-INF/views/layoutindex/playlist.jsp" />
+		<put-attribute name="album" value="/WEB-INF/views/layoutindex/album.jsp" />
+		<put-attribute name="event" value="/WEB-INF/views/layoutindex/event.jsp" />
+		<put-attribute name="contact" value="/WEB-INF/views/layoutindex/contact.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/views/layoutindex/footer.jsp" />
+		
+	</definition>
+
+
+	<definition name="indexadmin" template="/WEB-INF/views/layout/layout.jsp">
+		<put-attribute name="title" value="indexadmin" />
+		<put-attribute name="header" value="/WEB-INF/views/layout/header.jsp" />
+		<put-attribute name="menu" value="/WEB-INF/views/layout/menu.jsp" />
+		<put-attribute name="body" value="/WEB-INF/views/layout/body.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/views/layout/footer.jsp" />
+		
+	</definition>
+	<definition name="tuser" template="/WEB-INF/views/jsp/user.jsp"></definition>
+	<definition name="user" extends="tuser">
+		
+	</definition>
+	<definition name="admin" template="/WEB-INF/views/jsp/admin.jsp"></definition>
+	<definition name="tlogin" template="/WEB-INF/views/jsp/login.jsp"></definition>
+	<definition name="login" extends="tlogin">
+		
+	</definition>
+	<definition name="403" template="/WEB-INF/views/jsp/403.jsp"></definition>
+	<definition name="page-login" template="/WEB-INF/views/jsp/page-login.jsp"></definition>
+	<definition name="detail-song" template="/WEB-INF/views/layout/detail-song.jsp">
+		<put-attribute name="title" value="detail-song" />
+		<put-attribute name="header" value="/WEB-INF/views/layout/header.jsp" />
+		<put-attribute name="menu" value="/WEB-INF/views/layout/menu.jsp" />
+		<put-attribute name="body_detail_song" value="/WEB-INF/views/layout/body_detail_song.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/views/layout/footer.jsp" />
+	
+	</definition>
+	<definition name="page-addsong" template="/WEB-INF/views/jsp/page-addsong.jsp">
+		<put-attribute name="title" value="page-addsong" />
+		<put-attribute name="header" value="/WEB-INF/views/layout/header.jsp" />
+		<put-attribute name="menu" value="/WEB-INF/views/layout/menu.jsp" />
+		<put-attribute name="addnew" value="/WEB-INF/views/jsp/page-right-addnew.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/views/layout/footer.jsp" />
+	</definition>
+	
+	<!-- <definition name="page-addsong" template="/WEB-INF/views/jsp/page-addsong.jsp"></definition> -->
+	<definition name="page-forget" template="/WEB-INF/views/jsp/page-forget.jsp"></definition>
+	<definition name="page-register" template="/WEB-INF/views/jsp/page-register.jsp"></definition>
+	
+	<definition name="page-cart" template="/WEB-INF/views/layoutindex/cart.jsp"></definition>
+	<definition name="page-thank" template="/WEB-INF/views/layoutindex/thank.jsp"></definition>
+	<definition name="page-bill" template="/WEB-INF/views/jsp/page-bill.jsp"></definition>
+<definition name="page-sendgmail" template="/WEB-INF/views/layoutindex/page-sendgmail.jsp"></definition>
+<definition name="page-error" template="/WEB-INF/views/layoutindex/error.jsp"></definition>
+</tiles-definitions>

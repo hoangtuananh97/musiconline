@@ -1,0 +1,30 @@
+.noidung li{
+	list-style: none;
+	position: absolute;
+	transition: 0.4s;
+}
+.noidung li{
+	opacity: 0;
+	visibility: hidden;
+}
+.noidung li.hienlen{
+	opacity: 1;
+	visibility: visible;
+}
+.formHide{
+	
+	padding: 10px;
+	border: 1px solid #000000;
+	width: 100%;
+}
+.formHide tr{
+	padding: 5px;
+}
+.formHide h2{
+	color: #000000;
+}
+.btn-submit{
+	border-radius: 5px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 5px;
+	padding-left: 10px;
+}
